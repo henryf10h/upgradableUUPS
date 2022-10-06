@@ -1,6 +1,9 @@
->> I need to deploy a version 1
->> I need to deploy a version 2
->> I need to test same state position and different state position in v2
+>> I need to deploy a version 1 >> done
+>> I need to deploy a version 2 >> done
+>> deploy v3 >> done
+>> I need to test same state position between v2 and v3 >> done
 
 
 >> add https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/contracts/token/ERC20/ERC20Upgradeable.sol
+
+>> if you do not initialize(), then you will pass empty name and symbol to the next inherited contracts >> fixed

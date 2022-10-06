@@ -5,7 +5,7 @@ import "./uupsToken.sol";
 
 contract MyTokenV2 is MyToken {
 
-    uint256 public fee;
+    uint256 public fee = 1;
 
     function version() public pure returns (string memory){
         return "V2!";
